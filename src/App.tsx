@@ -15,7 +15,14 @@ function App() {
       <a href="https://react.dev" target="_blank">
         <img src={reactLogo} className="logo react" alt="React logo" />
       </a>
-
+      <p style={{ textAlign: "center", marginBlock: 20 }}>
+        This project serves as an example for deploying to Vercel. For more
+        information, see{" "}
+        <a href="https://github.com/Anshuman71/express-vercel">
+          GitHub repository
+        </a>
+        .
+      </p>
       <div>
         <a href="/about">About page</a>
         <br />
