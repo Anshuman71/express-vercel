@@ -14,9 +14,6 @@ app.use(
   })
 );
 
-// expose Vite build output as static asset
-app.use(express.static("dist"));
-
 app.get("/test-cors-get", function (req, res) {
   res.status(200).json({ success: true });
 });
